@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="friend">
+		<form action="">
+			<h3>Введите слово</h3>
+			<input id="friendInput" type="text">
+			<button id="friendButton">принять</button>
+		</form>
+	</div>
+	<div id="modal">
+		<form action="">
+			<h3>Режим игры</h3>
+			<button id="forOne">Одиночное</button>
+			<button id="forTwo">На двоих</button>
+		</form>
+	</div>
+	<form>
+		<h1 id="gameName">Виселица</h1>
+		<img src="hangman0.png" alt="">
+		<h3 id="cypher"></h3>
+		<input maxlength="1" id="userInput" type="text">
+		<button id="check" type="submit">Проверить</button>
+		<button id="newGame">Новая игра</button>
+		<button  id="OneOrTwo">Режим игры</button>
+		<p>Буквы</p>
+	</form>
+	<script type="module" src="script.js"></script>
+</body>
+</html>

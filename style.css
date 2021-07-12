@@ -1,0 +1,84 @@
+* {
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+p {
+	padding: 5px;
+}
+body {
+	background: #FFD740;
+}
+form {
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 10px;
+	background: #A1887F;
+	width: 40%;
+	border-radius: 30px;
+	text-align: center;
+}
+input {
+	width: 96%;
+	background: #BDBDBD;
+	border-radius: 30px;
+}
+button {
+	width: 48%;
+	margin-top: 5px;
+	padding: 2px;
+	box-sizing: border-box;
+	border-radius: 30px;
+}
+#userInput{
+	width: 50px;
+	line-height: 50px;
+	border-radius: 25px;
+	text-align: center;
+	font-size: 30px;
+	display: block;
+	margin: auto;
+}
+#OneOrTwo{
+	width: 96%;
+}
+#modal /*#friend*/ {
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0;
+	display: none;
+	backdrop-filter: blur(10px);
+}
+#modal form{
+	height: 75px;
+}
+#modal button{
+	border-radius: 30px;
+}
+#modal h3{
+	padding: 5px;
+}
+#modal form, #friend form  {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#friend{
+background: rgba(0,0,0,0.5);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0;
+	display: none;
+	backdrop-filter: blur(10px);	
+}
+#friend h3{
+	padding: 5px;
+}
+#friend button{
+	margin: 10px;
+}
